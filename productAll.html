@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="mani.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="src/image/logo_prev_ui.png" type="image/x-icon">
+    <title>Product</title>
+</head>
+
+<body>
+    <!-- heder -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="product.html"><i class="fa-solid fa-shoe-prints"></i>Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#abut"><i class="fa fa-exclamation"></i>Abut Us</a></li>
+                <li class="f-left"><a href="bascte.html"><i class="fa fa-shopping-basket"></i>Bascet</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main-all">
+        <section class="section-product">
+            <div class="div-pro">
+                <div class="image-itme-pro">
+                    <img id="image-pro">
+                </div>
+                <div class="div-pro-text-info">
+                    <h1 id="pro">Air Jordan 1 Low</h1>
+                    <h4 id="price">$80.99</h4>
+                    <br>
+                    <span id="catguore">Men's Shoes</span>
+                    <p id="discreptino">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, consectetur
+                        laudantium?
+                        Aperiam tempora, quae minus ut tempore optio quo consequuntur tenetur! Dignissimos corrupti
+                        accusamus quisquam maxime, suscipit laborum reprehenderit similique ratione aliquid eaque
+                        aliquam, architecto deserunt, cumque hic? Veritatis, eligendi ad quia quisquam adipisci culpa
+                        reiciendis voluptate doloremque ea odit.</p>
+                </div>
+            </div>
+            <!-- mor-products -->
+            <br>
+            <a id="mor-products" onclick="Addtobascet()">Add to Cart</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </section>
+    </main>
+
+
+    <script src="cookies/cookies.js"></script>
+    <script src="models/product.js"></script>
+    <script src="models/BasceModels.js"></script>
+    <script src="handlers/productHandlers.js"></script>
+    <script src="db/productDb.js"></script>
+    <script src="db/BascetDb.js"></script>
+    <script src="main.js"></script>
+    <script src="controller/indexCtr3.js"></script>
+
+</body>
+
+</html>
