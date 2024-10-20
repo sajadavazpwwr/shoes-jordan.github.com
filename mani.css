@@ -1,0 +1,200 @@
+@font-face {
+    font-family: ubuntu;
+    src: url('src/fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: ubuntu;
+}
+
+header {
+    text-align: center;
+    background-color: #2d3436;
+    padding: 8px;
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    color: #2d3436;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    width: 150px;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+ul li a:hover {
+    color: #d63031;
+    border-bottom: 3px solid #d63031;
+}
+
+/* product */
+#pro {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+/* section-item */
+.section-item {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* product all */
+.ection-product {
+    width: 90%;
+}
+
+#main-all {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div-pro {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+}
+
+/* div-pro product page */
+#section-product {
+    width: 90%;
+
+}
+
+.image-itme-pro {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.div-pro-text-info {
+    width: 45%;
+    padding: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.div-pro-text-info p {
+    text-align: justify;
+}
+
+/* div-itme */
+.div-itme {
+    width: 30%;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: left;
+}
+
+#disp-non ,#disp-non-tmpl {
+    display: none;
+}
+
+.image-itme img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text-info {
+    width: 100%;
+    padding: 10px;
+}
+
+.text-info h1 {
+    font-size: 15px;
+    display: inline-block;
+}
+
+.text-info h6 {
+    display: inline-block;
+    margin: 0 0 0 35px;
+}
+
+.text-info span {
+    font-size: 15px;
+}
+
+/* mor-products */
+#mor-products {
+    padding: 20px;
+    background-color: #d63031;
+    color: #ffff;
+    transition: all 0.5s ease;
+}
+
+#mor-products:hover {
+    background-color: #ffff;
+    border: 3px solid #d63031;
+    color: #d63031;
+}
+/* bascet */
+#section-bascet{
+    margin: 0 auto;
+    width: 80%;
+    
+}
+.div-bascet-itm{
+    width: 90%;
+    margin: 30px 0 30px 0;
+    background-color: #eeeeee;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+.div-bascet-image{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    text-align: left;
+}
+.div-bascet-image img{
+    width: 300px;
+    border-radius: 20px;
+}
+.div-bascet-info{
+    display: inline-block;
+    vertical-align: middle;
+    width: 56%;
+}
+.bascet-ul li{
+    width: 150px;
+    text-align: left;
+}
+.bascet-ul{
+    text-align: left;
+}
+.btn{
+    width: 20px;
+    border-radius: 5px;
+    float: right;
+    background: none;
+    border: 2px solid #b1b1b1;
+    cursor: pointer;
+}
+.btnli{
+    float: right;
+}
+.btn:hover{
+   border-bottom: 1px solid #b1b1b1;
+   border-top: 3px solid #b1b1b1;
+}
